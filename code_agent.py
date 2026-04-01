@@ -5,7 +5,7 @@ from openai import OpenAI
 
 # 1. DEEPSEEK CONNECTION
 # Replace with your actual key
-client = OpenAI(api_key="sk-ad6641ed81964b4cb2f6cd862cb919e0", base_url="https://api.deepseek.com")
+client = OpenAI(api_key="API_KEY", base_url="https://api.deepseek.com")
 
 async def ai_analyze_and_decide(elements, user_command, current_url):
     """The AI acts as a Brain: analyzing elements and deciding the next click"""
